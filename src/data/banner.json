@@ -1,0 +1,14 @@
+[
+    {
+        "id":1,
+        "title":"Secure your <span class='text-custom-blue'>flight today</span> with fastdrive!",
+        "image":"assets/images/denseimg/bannerme.jpg",
+        "accomondation":[
+            {
+                "icon":"fas fa-dollar-sign",
+                "title":"Guarantee leading travel company"
+            }
+        ],
+        "link":"/flight-grid"
+    }
+]

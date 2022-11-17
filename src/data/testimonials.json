@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "rating":5,
+        "text": "Was looking for 2 different flights to Greece. Both were at a fantastic price. A lot cheapier than other sites.",
+        "author": [
+            1
+        ]
+    },
+    {
+        "id": 2,
+        "rating":3,
+        "text": "I was waiting to visit Morocco for a long while! However, this website provided me the best ticket deal and I could save a huge amount of money. Thank you so much.",
+        "author": [
+            2
+        ]
+    },
+    {
+        "id": 3,
+        "rating":4,
+        "text": "I used the cheap flight tickets from this website to Boston and found it to be very economical and useful. No complaints from my side so far.",
+        "author": [
+            3
+        ]
+    },
+    {
+        "id": 4,
+        "rating":4,
+        "text": "I was waiting to visit Morocco for a long while! However, this website provided me the best ticket deal and I could save a huge amount of money. Thank you so much.",
+        "author": [
+            5
+        ]
+    }
+]
