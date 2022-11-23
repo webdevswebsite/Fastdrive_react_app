@@ -12,7 +12,7 @@ class Flightdetails extends Component {
         return (
             <Fragment>
                 <MetaTags>
-                    <title>Toor - Travel Booking - React Template | {pagelocation}</title>
+                    <title>Travel Booking {pagelocation}</title>
                     <meta
                         name="description"
                         content="#"

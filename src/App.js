@@ -1,5 +1,6 @@
 import React, { Suspense, useLayoutEffect } from 'react'
 import { BrowserRouter as Router, Route, Switch, withRouter } from 'react-router-dom';
+import Flightbooking from './components/sections/booking/Flightbooking';
 
 // Home
 const Home = React.lazy(() => import("./components/pages/Home"));
@@ -108,6 +109,7 @@ function App() {
             {/* Faqs */}
             <Route exact path="/faqs" component={Faqs} />
             {/* Booking */}
+            <Route exact path="/flightbooking" component={Flightbooking} />
             <Route exact path="/booking" component={Booking} />
             {/* Gallery */}
             <Route exact path="/gallery" component={Gallery} />

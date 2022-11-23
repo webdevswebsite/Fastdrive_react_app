@@ -250,7 +250,7 @@ class Content extends Component {
                                                                         </div>
                                                                     </div>
                                                                 </div>
-                                                                <Link to="/booking">
+                                                                <Link to="/flightbooking" >
                                                                     <button type="submit" className="btn-first btn-submit full-width btn-height">Book Travel</button>
                                                                 </Link>
                                                             </div>
