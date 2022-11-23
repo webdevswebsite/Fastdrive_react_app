@@ -2,8 +2,9 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import Slider from 'react-slick';
 import { Tab, Nav, Accordion, Card, Button } from "react-bootstrap";
-import { getFlight, getAirlines, getAmenities, getFlightByCategory, getRoute, getType } from '../../../helper/flightHelper';
+import { getFlight, getAirlines, getAmenities, getType } from '../../../helper/flightHelper';
 import { getAuthor, getTestimonials } from '../../../helper/helper';
+
 
 const settingsTesti = {
     infinite: true,
@@ -41,15 +42,11 @@ class Content extends Component {
                                             <div className="tabs">
                                                 <Tab.Container defaultActiveKey="tab2">
                                                     <Nav as="ul" varient="tabs" className="custom-flex nav nav-tabs mb-xl-20">
-                                                        {/* <Nav.Item as="li">
-                                                            <Nav.Link eventKey="tab1">Overview</Nav.Link>
-                                                        </Nav.Item> */}
+                                                      
                                                         <Nav.Item as="li">
                                                             <Nav.Link eventKey="tab2">About Flight</Nav.Link>
                                                         </Nav.Item>
-                                                        {/* <Nav.Item as="li">
-                                                            <Nav.Link eventKey="tab3">FAQs</Nav.Link>
-                                                        </Nav.Item> */}
+                                                       
                                                     </Nav>
                                                     <Tab.Content>
                                                         <Tab.Pane eventKey="tab1">
@@ -104,11 +101,11 @@ class Content extends Component {
                                                                                         <cite className="text-custom-blue fs-16">{testimonials.text.slice(0, 125)}</cite>
                                                                                         {getAuthor(testimonials.author).map((author, i) => (
                                                                                             <div className="testimonial-author" key={i}>
-                                                                                               
+
                                                                                                 <div className="author-name ml-2">
                                                                                                     <h6 className="text-custom-black no-margin fs-14 fw-500">
                                                                                                         {author.name}</h6>
-                                                                                                    
+
                                                                                                 </div>
                                                                                             </div>
                                                                                         ))}
@@ -118,7 +115,7 @@ class Content extends Component {
                                                                             </Slider>
                                                                         </div>
                                                                     </div>
-                                                                   
+
                                                                 </div>
                                                             </div>
                                                         </Tab.Pane>
@@ -222,7 +219,7 @@ class Content extends Component {
                                                                     <label className="fs-14 text-custom-black fw-500">Departing
                                                                         On</label>
                                                                     <div className="input-group group-form">
-                                                                        <input type="text" name="#" className="form-control form-control-custom datepickr" placeholder="" readOnly  required/>
+                                                                        <input type="text" name="#" className="form-control form-control-custom datepickr" placeholder="" readOnly required />
                                                                         <span className="input-group-append">
                                                                             <i className="far fa-calendar" />
                                                                         </span>
@@ -254,13 +251,13 @@ class Content extends Component {
                                                                     </div>
                                                                 </div>
                                                                 <Link to="/booking">
-                                                                <button type="submit" className="btn-first btn-submit full-width btn-height">Book Travel</button>
+                                                                    <button type="submit" className="btn-first btn-submit full-width btn-height">Book Travel</button>
                                                                 </Link>
                                                             </div>
                                                         </div>
                                                     </form>
                                                 </div>
-                                               
+
                                                 <div className="need-help bx-wrapper padding-20">
                                                     <h5 className="text-custom-black">Need Help?.</h5>
                                                     <p className="text-light-dark">We are here for you Reach us 24/7 (Monday - Sunday)</p>

@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import Slider from 'react-slick';
 import bannercontent from "../../../data/banner.json";
 
@@ -30,7 +29,6 @@ class Banner extends Component {
         return (
             <div className="slider p-relative">
                 <Slider {...settings} className="main-banner arrow-layout-1 ">
-                    {/* Data */}
                     {bannercontent.map((item, i) => (
                         <div key={i}>
                             <div className="slide-item" style={{ backgroundImage: "url(" + process.env.PUBLIC_URL + "/" + item.image + ")" }}>
@@ -41,16 +39,13 @@ class Banner extends Component {
                                                 <div className="slider-content">
                                                     <h1 className="text-custom-white" dangerouslySetInnerHTML={{ __html: item.title }} />
                                                     <ul className="custom">
-                                                        {/* Data */}
                                                         {item.accomondation.map((accomondation, i) => (
                                                             <li className="text-custom-white" key={i}>
                                                                 <i className={accomondation.icon} />
                                                                 {accomondation.title}
                                                             </li>
                                                         ))}
-                                                        {/* Data */}
                                                     </ul>
-                                                    {/* <Link to={item.link} className="btn-first btn-small">Get Started Now</Link> */}
                                                 </div>
                                             </div>
                                         </div>

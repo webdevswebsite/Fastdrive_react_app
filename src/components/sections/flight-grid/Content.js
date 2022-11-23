@@ -65,13 +65,11 @@ class Content extends Component {
                     <div className="row">
                         <div className="col-12">
                             <div className="listing-top-heading mb-xl-20">
-                                <h6 className="no-margin text-custom-black"></h6>
                                 <div className="sort-by">
-                                    <span className="text-custom-black fs-14 fw-600">Sort by</span>
                                     <div className="group-form">
                                         <select className="form-control form-control-custom custom-select">
-                                            <option>A to Z</option>
-                                            <option>Z to A</option>
+                                            <option>List of all available flights</option>
+                                            {/* <option>Z to A</option> */}
                                         </select>
                                     </div>
                                 </div>
