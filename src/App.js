@@ -57,7 +57,7 @@ const ScrollToTop = withRouter(({ children, location: { pathname } }) => {
 
 function App() {
   return (
-    <Router basename={"/tm/react/toor/"}>
+    <Router basename={"/"}>
       <Suspense fallback={<div></div>}>
         <ScrollToTop>
           {/* <Preloader /> */}
