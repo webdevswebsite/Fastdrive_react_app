@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import Footer from '../../layouts/Footer';
 
 function Flightbooking() {
     // render() {
@@ -11,7 +12,8 @@ function Flightbooking() {
     }, [])
 
     return (
-        <div className="tab-inner">
+        <>
+        <div className="tab-inner" style={{padding: '30px', marginTop:'50px'}}>
             <div className="row">
                 <div className="col-lg-8">
                     <h5 className="text-custom-black">Payment information</h5>
@@ -32,7 +34,7 @@ function Flightbooking() {
                                     onBlur={(e) => {
                                         localStorage.setItem('email', e.target.value)
                                     }
-                                    }
+                                }
                                 />
                             </div>
                         </div>
@@ -364,7 +366,9 @@ function Flightbooking() {
                     </div>
                 </div>
             </div>
-        </div>
+            </div>
+            <Footer />
+        </>
     );
     // }
 }
