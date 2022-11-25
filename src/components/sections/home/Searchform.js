@@ -125,10 +125,17 @@ class Searchform extends Component {
                                                                     <div className="form-group">
                                                                         <label className="fs-14 text-custom-black fw-500">Leaving On</label>
                                                                         <div className="input-group group-form">
-                                                                            <input type="text" name="#" className="form-control form-control-custom datepickr" placeholder="mm/dd/yy" readOnly />
+                                                                            <input
+                                                                                className='form-control form-control-custom datepickr'
+                                                                                placeholder="Select a date"
+                                                                                type="date"
+                                                                                // value={day}
+                                                                                required
+                                                                            />
+                                                                            {/* <input type="text" name="#" className="form-control form-control-custom datepickr" placeholder="mm/dd/yy" readOnly />
                                                                             <span className="input-group-append">
                                                                                 <i className="far fa-calendar" />
-                                                                            </span>
+                                                                            </span> */}
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -138,8 +145,8 @@ class Searchform extends Component {
                                                                         <div className="group-form">
                                                                             <div className="nice-select custom-select form-control form-control-custom">
                                                                                 <select >
-                                                                                    <option>Anytime</option>
                                                                                     <option>Morning</option>
+                                                                                    <option>Evening</option>
                                                                                 </select>
                                                                             </div>
                                                                         </div>
@@ -151,10 +158,17 @@ class Searchform extends Component {
                                                                     <div className="form-group">
                                                                         <label className="fs-14 text-custom-black fw-500">Returning On</label>
                                                                         <div className="input-group group-form">
-                                                                            <input type="text" name="#" className="form-control form-control-custom datepickr" placeholder="mm/dd/yy" readOnly required />
+                                                                            <input
+                                                                                className='form-control form-control-custom datepickr'
+                                                                                placeholder="Select a date"
+                                                                                type="date"
+                                                                                // value={day}
+                                                                                required
+                                                                            />
+                                                                            {/* <input type="text" name="#" className="form-control form-control-custom datepickr" placeholder="mm/dd/yy" readOnly required />
                                                                             <span className="input-group-append">
                                                                                 <i className="far fa-calendar" />
-                                                                            </span>
+                                                                            </span> */}
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -164,8 +178,8 @@ class Searchform extends Component {
                                                                         <div className="group-form">
                                                                             <div className="nice-select custom-select form-control form-control-custom">
                                                                                 <select >
-                                                                                    <option>Anytime</option>
                                                                                     <option>Morning</option>
+                                                                                    <option>Evening</option>
                                                                                 </select>
                                                                             </div>
                                                                         </div>

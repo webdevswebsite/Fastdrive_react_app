@@ -1,6 +1,8 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import Footer from '../../layouts/Footer';
+import Header from '../../layouts/Header';
+
 
 function Flightbooking() {
     // render() {
@@ -13,7 +15,8 @@ function Flightbooking() {
 
     return (
         <>
-        <div className="tab-inner" style={{padding: '30px', marginTop:'50px'}}>
+            <Header />
+        <div className="tab-inner" style={{padding: '50px', marginTop:'0px'}}>
             <div className="row">
                 <div className="col-lg-8">
                     <h5 className="text-custom-black">Payment information</h5>

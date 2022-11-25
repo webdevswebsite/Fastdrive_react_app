@@ -219,10 +219,17 @@ class Content extends Component {
                                                                     <label className="fs-14 text-custom-black fw-500">Departing
                                                                         On</label>
                                                                     <div className="input-group group-form">
-                                                                        <input type="text" name="#" className="form-control form-control-custom datepickr" placeholder="" readOnly required />
+                                                                        <input
+                                                                            className='form-control form-control-custom datepickr'
+                                                                            placeholder="Select a date"
+                                                                            type="date"
+                                                                            // value={day}
+                                                                            required
+                                                                        />
+                                                                        {/* <input type="text" name="#" className="form-control form-control-custom datepickr" placeholder="" readOnly required />
                                                                         <span className="input-group-append">
                                                                             <i className="far fa-calendar" />
-                                                                        </span>
+                                                                        </span> */}
                                                                     </div>
                                                                 </div>
                                                                 <div className="form-group">
@@ -233,10 +240,17 @@ class Content extends Component {
                                                                     <label className="fs-14 text-custom-black fw-500">Arriving
                                                                         On</label>
                                                                     <div className="input-group group-form">
-                                                                        <input type="text" name="#" className="form-control form-control-custom datepickr" placeholder="" readOnly required />
+                                                                        <input
+                                                                            className='form-control form-control-custom datepickr'
+                                                                            placeholder="Select a date"
+                                                                            type="date"
+                                                                            // value={day}
+                                                                            required
+                                                                        />
+                                                                        {/* <input type="text" name="#" className="form-control form-control-custom datepickr" placeholder="" readOnly required />
                                                                         <span className="input-group-append">
                                                                             <i className="far fa-calendar" />
-                                                                        </span>
+                                                                        </span> */}
                                                                     </div>
                                                                 </div>
                                                                 <div className="form-group">
