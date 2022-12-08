@@ -5,7 +5,8 @@ import Banner from './Banner';
 
 import Searchform from './Searchform';
 
-import Grid from '../../sections/flight-grid/Content';
+// import Grid from '../../sections/flight-grid/Content';
+import Recomflights from './Recomflights';
 
 class Content extends Component {
     render() {
@@ -13,8 +14,9 @@ class Content extends Component {
             <Fragment>
                 <Banner />
                 <Searchform />
-                <Grid />
-            
+                <Recomflights />
+                {/* <Grid /> */}
+
             </Fragment>
         );
     }

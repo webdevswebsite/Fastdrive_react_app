@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import { BrowserRouter } from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
-
+import CurrencyContext from './context/CurrencyContext'
 // Css
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import '../node_modules/slick-carousel/slick/slick.css';
@@ -17,7 +17,9 @@ import './index.css';
 
 ReactDOM.render(
   <BrowserRouter basename={"/"}>
-    <App />
+    <CurrencyContext>
+      <App />
+    </CurrencyContext>
   </BrowserRouter>,
   document.getElementById('toor')
 );
