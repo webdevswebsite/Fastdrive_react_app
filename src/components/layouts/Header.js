@@ -2,9 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { CurrencyState } from '../../context/CurrencyContext';
 
-
 // import NavHelper from '../../helper/NavHelper';
-
 
 function Header() {
 
@@ -55,8 +53,8 @@ function Header() {
                                         {/* <img src={process.env.PUBLIC_URL + "/assets/images/toor-logo.png"} className="img-fluid image-fit" alt="img" /> */}
                                     </Link>
                                 </div>
-                                <span className="currency">Currency :</span>
-                                <select style={{ border: 'none' }} defaultValue={activeCurrency} onChange={handleChangeCurrency} >
+                                {/* <span className="currency">Currency :</span> */}
+                                {/* <select style={{ border: 'none' }} defaultValue={activeCurrency} onChange={handleChangeCurrency} >
                                     {currencies.map((currency, idx) => (
                                         <option
                                             defaultValue={activeCurrency}
@@ -65,7 +63,7 @@ function Header() {
                                             {currency}
                                         </option>
                                     ))}
-                                </select>
+                                </select> */}
                                 {/* <div className={this.state.navMethod === true ? 'main-menu active' : 'main-menu'}>
                                         <div className="logo">
                                             <Link to="/">

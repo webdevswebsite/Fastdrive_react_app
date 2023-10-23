@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Slider from 'react-slick';
 import bannercontent from "../../../data/banner.json";
 
@@ -24,11 +24,11 @@ const settings = {
     }]
 };
 
-class Banner extends Component {
-    render() {
+function Banner () {
         return (
             <div className="slider p-relative">
                 <Slider {...settings} className="main-banner arrow-layout-1 ">
+                    {/* Data */}
                     {bannercontent.map((item, i) => (
                         <div key={i}>
                             <div className="slide-item" style={{ backgroundImage: "url(" + process.env.PUBLIC_URL + "/" + item.image + ")" }}>
@@ -39,13 +39,16 @@ class Banner extends Component {
                                                 <div className="slider-content">
                                                     <h1 className="text-custom-white" dangerouslySetInnerHTML={{ __html: item.title }} />
                                                     <ul className="custom">
+                                                        {/* Data */}
                                                         {item.accomondation.map((accomondation, i) => (
                                                             <li className="text-custom-white" key={i}>
                                                                 <i className={accomondation.icon} />
                                                                 {accomondation.title}
                                                             </li>
                                                         ))}
+                                                        {/* Data */}
                                                     </ul>
+                                                    {/* <Link to={item.link} className="btn-first btn-small">Find Out More</Link> */}
                                                 </div>
                                             </div>
                                         </div>
@@ -59,6 +62,5 @@ class Banner extends Component {
             </div>
         );
     }
-}
 
 export default Banner;

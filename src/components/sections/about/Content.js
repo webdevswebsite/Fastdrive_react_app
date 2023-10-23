@@ -1,11 +1,11 @@
-import React, { Component, Fragment } from 'react';
+import React, { Fragment } from 'react';
 
 import { Tab, Nav } from "react-bootstrap";
 
 import Flightbooking from "../../sections/booking/Flightbooking-about";
 
-class Content extends Component {
-    render() {
+function Content () {
+
         return (
             <Fragment>
                  <section className="section-padding bg-light-white booking-form">
@@ -59,6 +59,6 @@ class Content extends Component {
             </Fragment>
         );
     }
-}
+
 
 export default Content;

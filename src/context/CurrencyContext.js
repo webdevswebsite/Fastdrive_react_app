@@ -29,5 +29,6 @@ const CurrencyContext = ({ children }) => {
 export default CurrencyContext;
 
 export const CurrencyState = () => {
+    
     return useContext(Currency);
 }

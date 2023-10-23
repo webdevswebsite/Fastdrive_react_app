@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 
-class Flightbooking extends Component {
-    render() {
+function Flightbooking () {
+   
         return (
             <div className="tab-inner">
                 <div className="row">
@@ -62,6 +62,5 @@ class Flightbooking extends Component {
             </div>
         );
     }
-}
 
 export default Flightbooking;

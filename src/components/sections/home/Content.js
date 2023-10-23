@@ -3,7 +3,7 @@ import React, { Component, Fragment } from 'react';
 
 import Banner from './Banner';
 
-import Searchform from './Searchform';
+// import Searchform from './Searchform';
 
 // import Grid from '../../sections/flight-grid/Content';
 import Recomflights from './Recomflights';
@@ -13,7 +13,7 @@ class Content extends Component {
         return (
             <Fragment>
                 <Banner />
-                <Searchform />
+                {/* <Searchform /> */}
                 <Recomflights />
                 {/* <Grid /> */}
 
