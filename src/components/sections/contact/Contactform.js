@@ -40,7 +40,7 @@ export default function Contactform() {
                 // email: localStorage.getItem("email"),
             },
             customizations: {
-                title: "PARCELTUBE",
+                title: "FASTDRIVE",
             },
             callback: async function () {
                 alert('Payment successful...We will reach out to you for further details')

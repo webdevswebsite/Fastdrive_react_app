@@ -90,7 +90,7 @@ function Recomflights() {
                                                             </div>
                                                             <div className="right-side">
                                                                 {/* <span className="price"><small>From</small>{currency}{new Intl.NumberFormat().format((item.price).toFixed(0))}</span> */}
-                                                                <span className="price"><small>From</small>{currency}{currency !== '$' ? priceToNum * rate : item.price}</span>
+                                                                <span className="price"><small></small>{currency}{currency !== '$' ? priceToNum * rate : item.price}</span>
                                                             </div>
                                                         </div>
                                                         <div className="action">
