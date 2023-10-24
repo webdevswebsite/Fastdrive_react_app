@@ -77,10 +77,10 @@ function Recomflights() {
                                                             <div className="left-side">
                                                                 {/* <i className="fas fa-plane text-gray" /> */}
                                                                 <div className="title">
-                                                                    <h4 className="fs-16">
+                                                                    <h4 className="fs-16" style={{display: "flex", flexDirection: "column", lineHeight: "1"}}>
                                                                         <Link to={`/booking/${i}`} className="text-custom-black">{item.title}</Link>
                                                                         {getRoute(item.flightroute).map((route, i) => (
-                                                                            <span className="text-light-dark" key={i}>{route.title}</span>
+                                                                            <span className="text-light-dark" key={i} style={{marginTop: "10px"}}>{route.title}</span>
                                                                         ))}
                                                                     </h4>
                                                                 </div>
