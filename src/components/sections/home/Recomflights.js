@@ -1,10 +1,11 @@
 import { Link } from 'react-router-dom';
 import { getRecentFlight, getRoute } from "../../../helper/flightHelper";
 import Slider from 'react-slick';
-import { CurrencyState } from '../../../context/CurrencyContext';
-import { useState } from 'react';
-import data from "../../../data/flights/flight.json"
+
 import { formatNumber } from "../../../utils";
+import data from "../../../data/flights/flight.json"
+import { useState } from 'react';
+import { CurrencyState } from '../../../context/CurrencyContext';
 
 
 const settings = {
@@ -18,7 +19,7 @@ const settings = {
     autoplaySpeed: 2000,
     speed: 500,
     cssEase: 'linear',
-    responsive: [{
+    responsive: [ {
         breakpoint: 992,
         settings: {
             arrows: true,
@@ -38,31 +39,28 @@ const settings = {
             dots: true,
             slidesToShow: 1
         }
-    }]
+    } ]
 };
 
 function Recomflights() {
-    const [displayCount, setDisplayCount] = useState(9);
+    const [ displayCount, setDisplayCount ] = useState(9);
+
     const {
         state: { currency, rate }
     } = CurrencyState()
+
     return (
         <>
             <section className="section-padding flights-sec bg-light-white">
                 <div className="container">
                     <div className="section-header">
                         <div className="section-heading">
-                            <h3 className="text-custom-black">Top attractions</h3>
-                            {/* <div className="section-description">
-                                <p className="text-light-dark">Lorem Ipsum is simply dummy text of the printing and typesetting
-                                    industry. Lorem Ipsum has been the industry's standard dummy text.</p>
-                            </div> */}
+                            <h3 className="text-custom-black">Top attractions </h3>
                         </div>
                     </div>
                     <div className="row">
                         <div className="col-12">
                             <Slider {...settings} className="flights-slider arrow-layout-2 row">
-                                {/* Data */}
                                 {getRecentFlight().map((item, i) => {
                                     let priceToNum = parseInt(item.price)
                                     return (
@@ -70,32 +68,29 @@ function Recomflights() {
                                             <div className="flights-grid">
                                                 <div className="flights-grid-wrapper bx-wrapper">
                                                     <div className="image-sec animate-img">
-                                                        <Link to={"/flight-details/" + item.id}>
+                                                        <Link to={`/booking/${i}`}>
                                                             <img src={process.env.PUBLIC_URL + "/" + item.image} className="full-width" alt={item.title} />
                                                         </Link>
                                                     </div>
-                                                    <div className="flights-grid-caption padding-20 bg-custom-white p-relative">
-                                                        <div className="heading-sec">
+                                                    <div className="flights-grid-caption padding-20 bg-custom-white p-relative card-footer">
+                                                        <div className="heading-sec card-footer-sec">
                                                             <div className="left-side">
                                                                 {/* <i className="fas fa-plane text-gray" /> */}
                                                                 <div className="title">
                                                                     <h4 className="fs-16">
-                                                                        <Link to={"/flight-details/" + item.id} className="text-custom-black">{item.title}</Link>
-                                                                        {/* {getRoute(item.flightroute).map((route, i) => (
-                                                                            <span className="text-light-dark" key={i}>{route.title}
-                                                                                Flight</span>
-                                                                        ))} */}
+                                                                        <Link to={`/booking/${i}`} className="text-custom-black">{item.title}</Link>
+                                                                        {getRoute(item.flightroute).map((route, i) => (
+                                                                            <span className="text-light-dark" key={i}>{route.title}</span>
+                                                                        ))}
                                                                     </h4>
                                                                 </div>
                                                             </div>
-                                                            <div className="right-side">
-                                                                {/* <span className="price"><small>From</small>{currency}{new Intl.NumberFormat().format((item.price).toFixed(0))}</span> */}
-                                                                <span className="price"><small></small>{currency}{currency !== '$' ? priceToNum * rate : item.price}</span>
+                                                            <div className="right-side footer-right">
+                                                                <span className="price" style={{ textAlign: 'left', lineHeight: '20px', textTransform: 'none' }}>{currency}{currency !== '$' ? formatNumber(priceToNum * rate) : formatNumber(item.price)} <small style={{ fontSize: '15px' }}>Per Person</small></span>
                                                             </div>
                                                         </div>
                                                         <div className="action">
-                                                            {/* <Link to={"/flight-details/" + item.id} className="btn-second btn-small">View</Link> */}
-                                                            <Link to={"/flight-details/" + item.id} className="btn-first btn-submit">Book</Link>
+                                                            <Link to={`/booking/${i}`} className="btn-first btn-submit">Book Tour</Link>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -104,10 +99,10 @@ function Recomflights() {
                                     )
                                 }
                                 )}
-                                {/* Data */}
                             </Slider>
                         </div>
                     </div>
+                    <br />
                 </div>
             </section>
             <section className="section-padding flights-sec bg-light-white">
@@ -156,25 +151,24 @@ function Recomflights() {
                                             </div>
                                         </div>
                                     </>
-                                )
+                                )    
                             })}
                         </div>
                         {displayCount < data.length && (
-                            <div className='centered-button' style={{display: "flex", alignItems: "center", justifyContent: "center", width:"100%"}}>
+                            <div className='centered-button'>
                                 <button
                                     className="btn-first btn-submit"
-                                    onClick={() => {setDisplayCount(displayCount + 9);console.log("clicked")}}
+                                    onClick={() => setDisplayCount(displayCount + 9)}
                                 >
                                     Load More
                                 </button>
                             </div>
-                    )}
+                        )}
                     </div>
                 </div>
             </section>
         </>
     );
-    // }
 }
 
 export default Recomflights;
