@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { getRecentFlight, getRoute } from "../../../helper/flightHelper";
+import { getRecentFlight } from "../../../helper/flightHelper";
 import Slider from 'react-slick';
 
 import { formatNumber } from "../../../utils";
@@ -79,9 +79,9 @@ function Recomflights() {
                                                                 <div className="title">
                                                                     <h4 className="fs-16">
                                                                         <Link to={`/booking/${i}`} className="text-custom-black">{item.title}</Link>
-                                                                        {getRoute(item.flightroute).map((route, i) => (
+                                                                        {/* {getRoute(item.flightroute).map((route, i) => (
                                                                             <span className="text-light-dark" key={i}>{route.title}</span>
-                                                                        ))}
+                                                                        ))} */}
                                                                     </h4>
                                                                 </div>
                                                             </div>
@@ -132,9 +132,9 @@ function Recomflights() {
                                                                 <div className="title">
                                                                     <h4 className="fs-16">
                                                                         <Link to={`/booking/${i}`} className="text-custom-black">{item.title}</Link>
-                                                                        {getRoute(item.flightroute).map((route, i) => (
+                                                                        {/* {getRoute(item.flightroute).map((route, i) => (
                                                                             <span className="text-light-dark" key={i}>{route.title}</span>
-                                                                        ))}
+                                                                        ))} */}
                                                                     </h4>
                                                                 </div>
                                                             </div>
