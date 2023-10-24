@@ -11,7 +11,7 @@ function Header() {
         dispatch: dispatchCurrency
     } = CurrencyState()
 
-    console.log(currency, rate)
+    console.log(currency, rate, currencies)
 
     const [ activeCurrency, setActiveCurrency ] = useState(
         localStorage.getItem('currency')
@@ -24,6 +24,8 @@ function Header() {
         })
         setActiveCurrency(value)
     }
+    
+    console.log(handleChangeCurrency)
 
     useEffect(() => {
         // on page reload activeCurency clears the state, prevent it from updating localstorage
