@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import MetaTags from "react-meta-tags";
-import Header from '../layouts/Header';
+// import Header from '../layouts/Header';
 import Content from '../../components/sections/about/Content';
 
 
@@ -17,8 +17,7 @@ class About extends Component {
                         content="#"
                     />
                 </MetaTags>
-                <Header />
-               
+                {/* <Header /> */}
                 <Content />
               
             </Fragment>

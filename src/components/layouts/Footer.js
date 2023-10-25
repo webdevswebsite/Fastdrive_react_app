@@ -23,7 +23,7 @@ class Footer extends NavHelper {
 
                                 </div>
                             </div>
-                            {/* <div className="col-lg-3 col-md-6">
+                            <div className="col-lg-3 col-md-6">
                                 <div className="footer-box mb-md-40">
                                     <h4 className="text-custom-white fw-600">Quick Links</h4>
                                     <ul className="custom links">
@@ -33,15 +33,15 @@ class Footer extends NavHelper {
 
                                         <li>
                                             <Link to="/about" className="text-custom-white">Terms of Service</Link>
-                                        </li> */}
-                                        {/* <li>
+                                        </li>
+                                         {/* <li>
                                             <Link to="/cruise-grid" className="text-custom-white">Cruise</Link>
                                         </li> */}
 
-                            {/* 
+                        
                                     </ul>
                                 </div>
-                            </div> */}
+                            </div>
                             <div className="col-lg-3 col-md-6">
                                 <div className="footer-box mb-sm-40">
                                     <h4 className="text-custom-white fw-600">Gallery</h4>

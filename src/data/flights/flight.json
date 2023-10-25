@@ -83,7 +83,7 @@
     {
         "id": 2,
         "title": "New York: CityPASS® with Tickets",
-        "image": "assets/images/flights/new-york.jpg",
+        "image": "assets/images/MuirWood.webp",
         "price": 245.68,
         "flightroute": [
             2
@@ -334,7 +334,7 @@
     {
         "id": 5,
         "title": "From Dubai: Abu Dhabi Premium Full-Day Sightseeing Tour",
-        "image": "assets/images/flights/dubai.jpg",
+        "image": "assets/images/skeleton.webp",
         "price": 315,
         "flightroute": [
             5
@@ -500,7 +500,7 @@
     {
         "id": 7,
         "title": "From Madrid: Toledo and Segovia Tour",
-        "image": "assets/images/flights/Madrid.jpg",
+        "image": "assets/images/Paris.webp",
         "price": 400,
         "flightroute": [
             1

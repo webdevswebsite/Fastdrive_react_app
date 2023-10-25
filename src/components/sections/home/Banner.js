@@ -11,8 +11,8 @@ const settings = {
     dots: false,
     dotsClass: "d-flex slick-dots",
     autoplay: true,
-    autoplaySpeed: 2000,
-    speed: 500,
+    autoplaySpeed: 4000,
+    speed: 1000,
     cssEase: 'linear',
     responsive: [{
         breakpoint: 768,
