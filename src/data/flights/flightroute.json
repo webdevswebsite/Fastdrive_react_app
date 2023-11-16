@@ -25,14 +25,35 @@
     },
     {       
         "id":7,
-        "title":"11 hours Sightseeing Tour"
+        "title":"11 hours Madrid Tour"
     },
     {
         "id":8,
-        "title":"3 Days famous attractions"
+        "title":"3 Days Classic Boat Cruise"
     }, 
     {
         "id":9,
-        "title":"1 full day group tour"
+        "title":" 1 week Santo Domingo Day Trip with Tickets and Lunch"
+    },
+    {
+        "id":10,
+        "title":"1 full day Evening Jazz Cruise"
+    },
+    {
+        "id":11,
+        "title":"2 days Tulum Ruins and Cenote Mariposa Tour"
+    },
+    {
+        "id":12,
+        "title":"1 full day Evening Jazz Cruise"
+    },
+    {
+        "id":13,
+        "title":"1 full day Evening Jazz Cruise"
+    },
+    {
+        "id":14,
+        "title":"1 full day Evening Jazz Cruise"
     }
 ]
+

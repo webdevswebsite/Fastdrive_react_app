@@ -71,7 +71,7 @@ function Flightbooking() {
                         <div className="col-12">
                         </div>
                         <div className="need-help bx-wrapper padding-20">
-                            <h5 className="text-custom-black">Why book flights with Parceltube?</h5>
+                            <h5 className="text-custom-black">Why book flights with FastDrive?</h5>
                             <p className="text-light-dark">Fastdrive offers a comprehensive range of services to cater to enssential travel needs. Whether you're looking to explore captivating destinations, embark on thrilling adventures, or indulge in relaxing getaways, we've got you covered. With our extensive network of tour operators and vacation providers, we provide a wide selection of options to suit every traveler's preferences and budget. Our user-friendly platform allows you to easily book tours and vacations, ensuring a seamless and enjoyable booking experience.</p>
                             {/* <p className="text-light-dark">One-stop destination for domestic and international flights</p>
                             <p className="text-light-dark">Easy availability of tickets at competitive prices</p>
