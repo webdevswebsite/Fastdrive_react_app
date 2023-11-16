@@ -78,7 +78,8 @@
                     "landingtime": "Landing, 0:00 AM/PM"
                 }
             ]
-        }
+        },
+        "FlightRouteTitle": "2 days Dolphin Tour"
     },
     {
         "id": 2,
@@ -163,7 +164,8 @@
                     "landingtime": "16 NOV 2022, 9:20 AM"
                 }
             ]
-        }
+        },
+        "FlightRouteTitle": "1 week New York: CityPASS® with Tickets"
     },
     {
         "id": 3,
@@ -244,7 +246,8 @@
                     "landingtime": "13 NOV 2022, 9:20 AM"
                 }
             ]
-        }
+        },
+        "FlightRouteTitle": "1 week Chicago City Cruise"
     },
     {
         "id": 4,
@@ -329,7 +332,8 @@
                     "landingtime": "16 NOV 2022, 9:20 AM"
                 }
             ]
-        }
+        },
+        "FlightRouteTitle": "5 hours Nairobi: Karen Blixen, Elephant Orphanage and Giraffe Center"
     },
     {
         "id": 5,
@@ -410,7 +414,9 @@
                     "landingtime": "13 NOV 2022, 9:20 AM"
                 }
             ]
-        }
+        },
+        "FlightRouteTitle": "10 hours  Abu Dhabi Premium Full-Day Sightseeing Tour"
+
     },
     {
         "id": 6,
@@ -495,7 +501,9 @@
                     "landingtime": "16 NOV 2022, 9:20 AM"
                 }
             ]
-        }
+        },
+        "FlightRouteTitle": "1 day City Archipelago Sightseeing Cruise with Guide"
+
     },
     {
         "id": 7,
@@ -576,7 +584,9 @@
                     "landingtime": "13 NOV 2022, 9:20 AM"
                 }
             ]
-        }
+        },
+        "FlightRouteTitle": "1 day Toledo and Segovia Tour"
+
     },
     {
         "id": 8,
@@ -661,7 +671,8 @@
                     "landingtime": "16 NOV 2022, 9:20 AM"
                 }
             ]
-        }
+        },
+        "FlightRouteTitle": "2 days Classic Boat Cruise with Cheese & Wine Option Tour"
     },
     {
         "id": 9,
@@ -742,7 +753,8 @@
                     "landingtime": "13 NOV 2022, 9:20 AM"
                 }
             ]
-        }
+        },
+        "FlightRouteTitle": " 4 days Santo Domingo Day Trip with Tickets and Lunch Tour"
     },
      {
         "id": 10,
@@ -823,13 +835,14 @@
                     "landingtime": "13 NOV 2022, 9:20 AM"
                 }
             ]
-        }
+        },
+        "FlightRouteTitle": " 4 days Evening Jazz Cruise Tour"
     },
      {
         "id": 11,
         "title": "From Riviera Maya: Tulum Ruins and Cenote Mariposa Tour",
         "image": "assets/images/flights/Cenotes.jpg",
-        "price": 259,
+        "price": 559,
         "flightroute": [
             3
         ],
@@ -904,7 +917,8 @@
                     "landingtime": "13 NOV 2022, 9:20 AM"
                 }
             ]
-        }
+        },
+        "FlightRouteTitle": " 6 days Tulum Ruins and Cenote Mariposa Tour"
     },
      {
         "id": 12,
@@ -985,7 +999,8 @@
                     "landingtime": "13 NOV 2022, 9:20 AM"
                 }
             ]
-        }
+        },
+        "FlightRouteTitle": " 2 days Santo Domingo Day Trip with Tickets and Lunch Tour"
     },
      {
         "id": 13,
@@ -1066,7 +1081,8 @@
                     "landingtime": "13 NOV 2022, 9:20 AM"
                 }
             ]
-        }
+        },
+        "FlightRouteTitle": " 2 days Santo Domingo Day Trip with Tickets and Lunch Tour"
     },
      {
         "id": 14,
@@ -1147,7 +1163,8 @@
                     "landingtime": "13 NOV 2022, 9:20 AM"
                 }
             ]
-        }
+        },
+        "FlightRouteTitle": " 1 day Lagos Beach Adventures; With a wide array of beaches Tour"
     },
      {
         "id": 15,
@@ -1228,492 +1245,8 @@
                     "landingtime": "13 NOV 2022, 9:20 AM"
                 }
             ]
-        }
-    },
-    {
-       "id": 16,
-       "title": "Paris: Louvre Museum Timed-Entrance Ticket",
-       "image": "assets/images/flights/tour98.jpeg",
-       "price": 370,
-       "flightroute": [
-           9
-       ],
-       "flighttype": [
-           1
-       ],
-       "flightstops": [
-           1
-       ],
-       "airlines": "Escape from São Paulo to the famous countryside town of São Roque.",
-       "accomondation": [
-           1,
-           2,
-           3,
-           4,
-           5
-       ],
-       "category": [
-           5,
-           6
-       ],
-       "overview": {
-           "text": "<p class='text-light-dark'>Explore the Louvre at your own pace with a timed-entrance ticket, ensuring you get in within 30 minutes. See unmissable and iconic artwork such as the Mona Lisa and Venus de Milo.</p>",
-           "testimonials": [
-               1,
-               2,
-               3
-           ],
-           "flightinfo": [
-               {
-                   "title": "Fare Type",
-                   "text": "Refundable"
-               },
-               {
-                   "title": "Cancellation",
-                   "text": "$78/Person"
-               },
-               {
-                   "title": "Flight Change",
-                   "text": "$53/Person"
-               },
-               {
-                   "title": "Seats & Baggage",
-                   "text": "Extra Charge"
-               }
-           ]
-       },
-       "includes": {
-           "title": "Amenities",
-           "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
-           "amenities": [
-               1,
-               2,
-               3,
-               4,
-               5,
-               6,
-               7,
-               8,
-               9,
-               10,
-               11,
-               12
-           ]
-       },
-       "travelinfo": {
-           "title": "Travel Info",
-           "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
-           "journeydetails": [
-               {
-                   "takeofftime": "13 NOV 2022, 7:50 AM",
-                   "landingtime": "13 NOV 2022, 9:20 AM"
-               }
-           ]
-       }
-   },
-   {
-      "id": 17,
-      "title": "Berlin: Plenary Chamber, Dome & Government District Tour.",
-      "image": "assets/images/flights/berlin.jpeg",
-      "price": 195,
-      "flightroute": [
-          9
-      ],
-      "flighttype": [
-          1
-      ],
-      "flightstops": [
-          1
-      ],
-      "airlines": "Escape from São Paulo to the famous countryside town of São Roque.",
-      "accomondation": [
-          1,
-          2,
-          3,
-          4,
-          5
-      ],
-      "category": [
-          5,
-          6
-      ],
-      "overview": {
-          "text": "<p class='text-light-dark'>On this guided tour of the parliament and government district of Berlin, you will get acquainted with some of Germany's political history. Begin your journey at the parliament and government district.</p>",
-          "testimonials": [
-              1,
-              2,
-              3
-          ],
-          "flightinfo": [
-              {
-                  "title": "Fare Type",
-                  "text": "Refundable"
-              },
-              {
-                  "title": "Cancellation",
-                  "text": "$78/Person"
-              },
-              {
-                  "title": "Flight Change",
-                  "text": "$53/Person"
-              },
-              {
-                  "title": "Seats & Baggage",
-                  "text": "Extra Charge"
-              }
-          ]
-      },
-      "includes": {
-          "title": "Amenities",
-          "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
-          "amenities": [
-              1,
-              2,
-              3,
-              4,
-              5,
-              6,
-              7,
-              8,
-              9,
-              10,
-              11,
-              12
-          ]
-      },
-      "travelinfo": {
-          "title": "Travel Info",
-          "text": "Explore the political and historical background of Berlin and see the parliament and government district of the capital.",
-          "journeydetails": [
-              {
-                  "takeofftime": "13 NOV 2022, 7:50 AM",
-                  "landingtime": "13 NOV 2022, 9:20 AM"
-              }
-          ]
-      }
-  },
-  {
-     "id": 18,
-     "title": "Paris: Louvre Reserved Access and Boat Cruise",
-     "image": "assets/images/flights/louvre.jpeg",
-     "price": 135,
-     "flightroute": [
-         9
-     ],
-     "flighttype": [
-         1
-     ],
-     "flightstops": [
-         1
-     ],
-     "airlines": "Escape from São Paulo to the famous countryside town of São Roque.",
-     "accomondation": [
-         1,
-         2,
-         3,
-         4,
-         5
-     ],
-     "category": [
-         5,
-         6
-     ],
-     "overview": {
-         "text": "<p class='text-light-dark'>Create your own perfect day in Paris with a reserved entrance to the Louvre Museum, and a cruise on the River Seine to experience the city from its historic waterway.</p>",
-         "testimonials": [
-             1,
-             2,
-             3
-         ],
-         "flightinfo": [
-             {
-                 "title": "Fare Type",
-                 "text": "Refundable"
-             },
-             {
-                 "title": "Cancellation",
-                 "text": "$78/Person"
-             },
-             {
-                 "title": "Flight Change",
-                 "text": "$53/Person"
-             },
-             {
-                 "title": "Seats & Baggage",
-                 "text": "Extra Charge"
-             }
-         ]
-     },
-     "includes": {
-         "title": "Amenities",
-         "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
-         "amenities": [
-             1,
-             2,
-             3,
-             4,
-             5,
-             6,
-             7,
-             8,
-             9,
-             10,
-             11,
-             12
-         ]
-     },
-     "travelinfo": {
-         "title": "Travel Info",
-         "text": "Explore the political and historical background of Berlin and see the parliament and government district of the capital.",
-         "journeydetails": [
-             {
-                 "takeofftime": "13 NOV 2022, 7:50 AM",
-                 "landingtime": "13 NOV 2022, 9:20 AM"
-             }
-         ]
-     }
- },
- {
-    "id": 19,
-    "title": "Kyoto: Best UNESCO and Historical Sites Bus Tour",
-    "image": "assets/images/flights/kyoto.jpeg",
-    "price": 207.16,
-    "flightroute": [
-        9
-    ],
-    "flighttype": [
-        1
-    ],
-    "flightstops": [
-        1
-    ],
-    "airlines": "Escape from São Paulo to the famous countryside town of São Roque.",
-    "accomondation": [
-        1,
-        2,
-        3,
-        4,
-        5
-    ],
-    "category": [
-        5,
-        6
-    ],
-    "overview": {
-        "text": "<p class='text-light-dark'>Discover the best of ancient Kyoto in a single day on this comprehensive guided tour by bus. Immerse yourself in the city's most important UNESCO World Heritage Sites and historical highlights.</p>",
-        "testimonials": [
-            1,
-            2,
-            3
-        ],
-        "flightinfo": [
-            {
-                "title": "Fare Type",
-                "text": "Refundable"
-            },
-            {
-                "title": "Cancellation",
-                "text": "$78/Person"
-            },
-            {
-                "title": "Flight Change",
-                "text": "$53/Person"
-            },
-            {
-                "title": "Seats & Baggage",
-                "text": "Extra Charge"
-            }
-        ]
-    },
-    "includes": {
-        "title": "Amenities",
-        "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
-        "amenities": [
-            1,
-            2,
-            3,
-            4,
-            5,
-            6,
-            7,
-            8,
-            9,
-            10,
-            11,
-            12
-        ]
-    },
-    "travelinfo": {
-        "title": "Travel Info",
-        "text": "Explore the political and historical background of Berlin and see the parliament and government district of the capital.",
-        "journeydetails": [
-            {
-                "takeofftime": "13 NOV 2022, 7:50 AM",
-                "landingtime": "13 NOV 2022, 9:20 AM"
-            }
-        ]
+        },
+        "FlightRouteTitle": " 1 day São Paulo: Full-Day Private Wine Tour"
+
     }
-},
-{
-   "id": 20,
-   "title": "Edinburgh Castle: Guided Historical Tour w/ Tickets Included   ",
-   "image": "assets/images/flights/scotland.jpeg",
-   "price": 126.77,
-   "flightroute": [
-       9
-   ],
-   "flighttype": [
-       1
-   ],
-   "flightstops": [
-       1
-   ],
-   "airlines": "Escape from São Paulo to the famous countryside town of São Roque.",
-   "accomondation": [
-       1,
-       2,
-       3,
-       4,
-       5
-   ],
-   "category": [
-       5,
-       6
-   ],
-   "overview": {
-       "text": "<p class='text-light-dark'>Go back in time on a guided walking tour of the grounds of Edinburgh Castle. Listen to fascinating stories of battles, royals, and rebels, and take time to explore on your own after the tour.</p>",
-       "testimonials": [
-           1,
-           2,
-           3
-       ],
-       "flightinfo": [
-           {
-               "title": "Fare Type",
-               "text": "Refundable"
-           },
-           {
-               "title": "Cancellation",
-               "text": "$78/Person"
-           },
-           {
-               "title": "Flight Change",
-               "text": "$53/Person"
-           },
-           {
-               "title": "Seats & Baggage",
-               "text": "Extra Charge"
-           }
-       ]
-   },
-   "includes": {
-       "title": "Amenities",
-       "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
-       "amenities": [
-           1,
-           2,
-           3,
-           4,
-           5,
-           6,
-           7,
-           8,
-           9,
-           10,
-           11,
-           12
-       ]
-   },
-   "travelinfo": {
-       "title": "Travel Info",
-       "text": "Explore the political and historical background of Berlin and see the parliament and government district of the capital.",
-       "journeydetails": [
-           {
-               "takeofftime": "13 NOV 2022, 7:50 AM",
-               "landingtime": "13 NOV 2022, 9:20 AM"
-           }
-       ]
-   }
-},
-{
-   "id": 21,
-   "title": "From Edinburgh: Glenfinnan, Fort William, & Glencoe Day Tour",
-   "image": "assets/images/flights/wind.jpeg",
-   "price": 430.77,
-   "flightroute": [
-       9
-   ],
-   "flighttype": [
-       1
-   ],
-   "flightstops": [
-       1
-   ],
-   "airlines": "Escape from São Paulo to the famous countryside town of São Roque.",
-   "accomondation": [
-       1,
-       2,
-       3,
-       4,
-       5
-   ],
-   "category": [
-       5,
-       6
-   ],
-   "overview": {
-       "text": "<p class='text-light-dark'>Go back in time on a guided walking tour of the grounds of Edinburgh Castle. Listen to fascinating stories of battles, royals, and rebels, and take time to explore on your own after the tour.</p>",
-       "testimonials": [
-           1,
-           2,
-           3
-       ],
-       "flightinfo": [
-           {
-               "title": "Fare Type",
-               "text": "Refundable"
-           },
-           {
-               "title": "Cancellation",
-               "text": "$78/Person"
-           },
-           {
-               "title": "Flight Change",
-               "text": "$53/Person"
-           },
-           {
-               "title": "Seats & Baggage",
-               "text": "Extra Charge"
-           }
-       ]
-   },
-   "includes": {
-       "title": "Amenities",
-       "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
-       "amenities": [
-           1,
-           2,
-           3,
-           4,
-           5,
-           6,
-           7,
-           8,
-           9,
-           10,
-           11,
-           12
-       ]
-   },
-   "travelinfo": {
-       "title": "Travel Info",
-       "text": "Explore the political and historical background of Berlin and see the parliament and government district of the capital.",
-       "journeydetails": [
-           {
-               "takeofftime": "13 NOV 2022, 7:50 AM",
-               "landingtime": "13 NOV 2022, 9:20 AM"
-           }
-       ]
-   }
-}
 ]

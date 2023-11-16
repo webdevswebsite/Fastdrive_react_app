@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { getRecentFlight, getRoute } from "../../../helper/flightHelper";
+import { getRecentFlight} from "../../../helper/flightHelper";
 import Slider from 'react-slick';
 
 import { formatNumber } from "../../../utils";
@@ -77,9 +77,9 @@ function Recomflights() {
                                                                 <div className="title">
                                                                     <h4 className="fs-16" style={{display: "flex", flexDirection: "column", lineHeight: "1"}}>
                                                                         <Link to={`/booking/${i}`} className="text-custom-black">{item.title}</Link>
-                                                                        {getRoute(item.flightroute).map((route, i) => (
-                                                                            <span className="text-light-dark" key={i} style={{marginTop: "10px"}}>{route.title}</span>
-                                                                        ))}
+                                                                        {/* {getRoute(item.flightroute).map((route, i) => ( */}
+                                                                            <span className="text-light-dark" key={i} style={{marginTop: "10px"}}>{item.FlightRouteTitle}</span>
+                                                                        {/* ))} */}
                                                                     </h4>
                                                                 </div>
                                                             </div>
@@ -129,9 +129,9 @@ function Recomflights() {
                                                                 <div className="title" >
                                                                     <h2 className="fs-16" style={{display: "flex", flexDirection: "column", lineHeight: "1"}} >
                                                                         <Link to={`/booking/${i}`} className="text-custom-black">{item.title}</Link>
-                                                                        {getRoute(item.flightroute).map((route, i) => (
-                                                                            <span className="text-light-dark" key={i} style={{marginTop: "10px"}} >{route.title}</span>
-                                                                        ))}
+                                                                        {/* {getRoute(item.flightroute).map((route, i) => ( */}
+                                                                            <span className="text-light-dark" key={i} style={{marginTop: "10px"}} >{item.FlightRouteTitle}</span>
+                                                                        {/* ))} */}
                                                                     </h2>
                                                                 </div>
                                                             </div>

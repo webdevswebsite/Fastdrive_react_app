@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link, useParams, useHistory } from 'react-router-dom';
-import { CurrencyState } from '../../../context/CurrencyContext';
 import dataBlock from '../../../data/flights/flight.json'
 import { formatNumber } from "../../../utils";
 import { useFormik } from 'formik'
@@ -27,9 +26,6 @@ function Flightbooking() {
 
     console.log(airlines)
 
-    const {
-        state: { currency, rate }
-    } = CurrencyState()
 
     const formik = useFormik({
         initialValues: {
@@ -51,7 +47,7 @@ function Flightbooking() {
                 <div className="row">
                     <div className="col-lg-8">
                         <h5 className="text-custom-black">About this tour:</h5>
-                        <p className="text-light-dark" style={{ fontSize: '18px' }}> <strong>Price: </strong> <Link>{currency}{currency !== '$' ? formatNumber(price * rate) : formatNumber(price)}</Link> </p>
+                        <p className="text-light-dark" style={{ fontSize: '18px' }}> <strong>Price: </strong> <Link>${formatNumber(price)}</Link> </p>
                         <p className="text-light-dark" style={{ fontSize: '18px' }}> <strong>Tour: </strong> <Link>{title}</Link> </p>
                         <p className="text-light-dark" style={{ fontSize: '18px' }}> <strong>Booking Date: </strong> <Link>{flightdate}</Link> </p>
                         <p className="text-light-dark" style={{ fontSize: '18px' }}> <strong>Tour Overview: </strong></p>
