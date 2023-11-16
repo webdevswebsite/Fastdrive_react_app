@@ -62,7 +62,6 @@ function Recomflights() {
                         <div className="col-12" style={{borderRadius: "20px"}}>
                             <Slider {...settings} className="flights-slider arrow-layout-2 row">
                                 {getRecentFlight().map((item, i) => {
-                                    let priceToNum = parseInt(item.price)
                                     return (
                                         <div key={i} className="slide-item col-12">
                                             <div className="flights-grid" style={{borderRadius: "20px"}}>
