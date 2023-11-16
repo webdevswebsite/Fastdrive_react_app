@@ -300,10 +300,10 @@ hr{
     right: 15px;
 }
 .arrow-layout-2 .slick-prev:after{
-    content: "\f164";
+    content: "prev";
 }
 .arrow-layout-2 .slick-next:after{
-    content: "\f162";
+    content: "next";
 }
 .arrow-layout-2 .slick-arrow:hover:after{
     color: #fff;

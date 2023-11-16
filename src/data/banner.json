@@ -2,7 +2,7 @@
     {
         "id":1,
         "title":"Do More<span class='text-custom-blue'>With</span> FastDrive!",
-        "image":"assets/images/404.jpg",
+        "image":"assets/images/newBanner.avif",
         "accomondation":[
              {
                 "icon":"fas fa-dollar-sign",
@@ -18,7 +18,7 @@
     {
         "id":3,
         "title":"Discover amazing  <span class='text-custom-blue'>tour</span> experiences!",
-        "image":"assets/images/hotel-1.jpg",
+        "image":"assets/images/newBanner1.jpeg",
         "accomondation":[
             {
                 "icon":"fas fa-dollar-sign",
@@ -34,7 +34,7 @@
     {
         "id":3,
         "title":"We make tours <span class='text-custom-blue'>most</span> memorable!",
-        "image":"assets/images/gallery/5.jpg",
+        "image":"assets/images/newBanner2.avif",
         "accomondation":[
              {
                 "icon":"fas fa-dollar-sign",
