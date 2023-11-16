@@ -55,21 +55,21 @@ function Recomflights() {
                 <div className="container">
                     <div className="section-header">
                         <div className="section-heading">
-                            <h3 className="text-custom-black">Top attractions </h3>
+                            <h3 className="text-custom-black">Recommended tours </h3>
                         </div>
                     </div>
                     <div className="row">
-                        <div className="col-12">
+                        <div className="col-12" style={{borderRadius: "20px"}}>
                             <Slider {...settings} className="flights-slider arrow-layout-2 row">
                                 {getRecentFlight().map((item, i) => {
                                     let priceToNum = parseInt(item.price)
                                     return (
                                         <div key={i} className="slide-item col-12">
-                                            <div className="flights-grid">
+                                            <div className="flights-grid" style={{borderRadius: "20px"}}>
                                                 <div className="flights-grid-wrapper bx-wrapper">
                                                     <div className="image-sec animate-img">
                                                         <Link to={`/booking/${i}`}>
-                                                            <img src={process.env.PUBLIC_URL + "/" + item.image} className="full-width" alt={item.title} />
+                                                            <img src={process.env.PUBLIC_URL + "/" + item.image} className="full-width" alt={item.title}/>
                                                         </Link>
                                                     </div>
                                                     <div className="flights-grid-caption padding-20 bg-custom-white p-relative card-footer">
@@ -89,9 +89,9 @@ function Recomflights() {
                                                                 <span className="price" style={{ textAlign: 'left', lineHeight: '20px', textTransform: 'none' }}>{currency}{currency !== '$' ? formatNumber(priceToNum * rate) : formatNumber(item.price)} <small style={{ fontSize: '15px' }}>Per Person</small></span>
                                                             </div>
                                                         </div>
-                                                        <div className="action">
+                                                        {/* <div className="action">
                                                             <Link to={`/booking/${i}`} className="btn-first btn-submit">Book Tour</Link>
-                                                        </div>
+                                                        </div> */}
                                                     </div>
                                                 </div>
                                             </div>
@@ -109,17 +109,17 @@ function Recomflights() {
                 <div className="container" style={{ marginTop: '-90px' }}>
                     <div className="section-header">
                         <div className="section-heading">
-                            <h3 className="text-custom-black">Find More Tours </h3>
+                            <h3 className="text-custom-black">More Tours </h3>
                         </div>
                     </div>
                     <div className="row">
-                        <div className="flights-slider arrow-layout-2 row col-md-12">
+                        <div className="flights-slider arrow-layout-2 row col-md-12" style={{borderRadius: "10px"}}>
                             {data.slice(0, displayCount).map((item, i) => {
                                 let priceToNum = parseInt(item.price)
                                 return (
                                     <>
-                                        <div key={i} className="slide-item col-md-12 col-lg-4">
-                                            <div className="flights-grid " style={{ marginTop: '25px' }}>
+                                        <div key={i} className="slide-item col-md-12 col-lg-4" >
+                                            <div className="flights-grid " style={{ marginTop: '25px', borderRadius: "20px" }} >
                                                 <div className="flights-grid-wrapper bx-wrapper">
                                                     <div className="image-sec animate-img">
                                                         <Link to={`/booking/${i}`}>
@@ -142,10 +142,10 @@ function Recomflights() {
                                                                 <span className="price" style={{ textAlign: 'left', lineHeight: '20px', textTransform: 'none', fontSize: '20px' }}>{currency}{currency !== '$' ? formatNumber(priceToNum * rate) : formatNumber(item.price)}<small style={{ fontSize: '15px' }}>Per Person</small></span>
                                                             </div>
                                                         </div>
-                                                        <div className="action">
+                                                        {/* <div className="action">
                                                             <Link to={`/booking/${i}`} className="btn-first btn-submit"
                                                             >Book Tour</Link>
-                                                        </div>
+                                                        </div> */}
                                                     </div>
                                                 </div>
                                             </div>
