@@ -1265,11 +1265,15 @@ label.custom-checkbox .checkmark:after {
     right: 0;
     bottom: 0;
     opacity: 0;
-    background-color: #EE6767;
+    background-color: #ee67678b;
     content: '';
     transition: 0.5s all;
     margin: 10px;
     transform: translateX(-100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
 }
 .cruise-grid .cruise-grid-wrapper .image-sec>a:before,
 .flights-grid .flights-grid-wrapper .image-sec>a:before,
@@ -1278,18 +1282,26 @@ label.custom-checkbox .checkmark:after {
     top: 50%;
     opacity: 0;
     color: #fff;
-    font-size: 26px;
+    font-size: 18px;
     font-family: "Flaticon";
     font-weight: 900;
-    content: "\f168";
+    content: "Book tour";
     pointer-events: none;
     z-index: 9000;
     transition: 0.5s all;
     transform: translate(-100%, -50%);
     left: 0;
     right: 0;
-    text-align: center;
     line-height: 0.5;
+    cursor: pointer; 
+    height: 40px; 
+    width: 94%; 
+    background-color: #EE6767;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    border-radius: 5px;
 }
 .cruise-grid .cruise-grid-wrapper:hover .image-sec>a:after,
 .cruise-grid .cruise-grid-wrapper:hover .image-sec>a:before,
