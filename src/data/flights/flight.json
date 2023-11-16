@@ -1553,5 +1553,167 @@
             }
         ]
     }
+},
+{
+   "id": 20,
+   "title": "Edinburgh Castle: Guided Historical Tour w/ Tickets Included   ",
+   "image": "assets/images/flights/scotland.jpeg",
+   "price": 126.77,
+   "flightroute": [
+       9
+   ],
+   "flighttype": [
+       1
+   ],
+   "flightstops": [
+       1
+   ],
+   "airlines": "Escape from São Paulo to the famous countryside town of São Roque.",
+   "accomondation": [
+       1,
+       2,
+       3,
+       4,
+       5
+   ],
+   "category": [
+       5,
+       6
+   ],
+   "overview": {
+       "text": "<p class='text-light-dark'>Go back in time on a guided walking tour of the grounds of Edinburgh Castle. Listen to fascinating stories of battles, royals, and rebels, and take time to explore on your own after the tour.</p>",
+       "testimonials": [
+           1,
+           2,
+           3
+       ],
+       "flightinfo": [
+           {
+               "title": "Fare Type",
+               "text": "Refundable"
+           },
+           {
+               "title": "Cancellation",
+               "text": "$78/Person"
+           },
+           {
+               "title": "Flight Change",
+               "text": "$53/Person"
+           },
+           {
+               "title": "Seats & Baggage",
+               "text": "Extra Charge"
+           }
+       ]
+   },
+   "includes": {
+       "title": "Amenities",
+       "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+       "amenities": [
+           1,
+           2,
+           3,
+           4,
+           5,
+           6,
+           7,
+           8,
+           9,
+           10,
+           11,
+           12
+       ]
+   },
+   "travelinfo": {
+       "title": "Travel Info",
+       "text": "Explore the political and historical background of Berlin and see the parliament and government district of the capital.",
+       "journeydetails": [
+           {
+               "takeofftime": "13 NOV 2022, 7:50 AM",
+               "landingtime": "13 NOV 2022, 9:20 AM"
+           }
+       ]
+   }
+},
+{
+   "id": 21,
+   "title": "From Edinburgh: Glenfinnan, Fort William, & Glencoe Day Tour",
+   "image": "assets/images/flights/wind.jpeg",
+   "price": 430.77,
+   "flightroute": [
+       9
+   ],
+   "flighttype": [
+       1
+   ],
+   "flightstops": [
+       1
+   ],
+   "airlines": "Escape from São Paulo to the famous countryside town of São Roque.",
+   "accomondation": [
+       1,
+       2,
+       3,
+       4,
+       5
+   ],
+   "category": [
+       5,
+       6
+   ],
+   "overview": {
+       "text": "<p class='text-light-dark'>Go back in time on a guided walking tour of the grounds of Edinburgh Castle. Listen to fascinating stories of battles, royals, and rebels, and take time to explore on your own after the tour.</p>",
+       "testimonials": [
+           1,
+           2,
+           3
+       ],
+       "flightinfo": [
+           {
+               "title": "Fare Type",
+               "text": "Refundable"
+           },
+           {
+               "title": "Cancellation",
+               "text": "$78/Person"
+           },
+           {
+               "title": "Flight Change",
+               "text": "$53/Person"
+           },
+           {
+               "title": "Seats & Baggage",
+               "text": "Extra Charge"
+           }
+       ]
+   },
+   "includes": {
+       "title": "Amenities",
+       "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+       "amenities": [
+           1,
+           2,
+           3,
+           4,
+           5,
+           6,
+           7,
+           8,
+           9,
+           10,
+           11,
+           12
+       ]
+   },
+   "travelinfo": {
+       "title": "Travel Info",
+       "text": "Explore the political and historical background of Berlin and see the parliament and government district of the capital.",
+       "journeydetails": [
+           {
+               "takeofftime": "13 NOV 2022, 7:50 AM",
+               "landingtime": "13 NOV 2022, 9:20 AM"
+           }
+       ]
+   }
 }
 ]
