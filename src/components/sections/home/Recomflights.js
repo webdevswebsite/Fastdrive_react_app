@@ -1,8 +1,6 @@
 import { Link } from 'react-router-dom';
 import { getRecentFlight} from "../../../helper/flightHelper";
 import Slider from 'react-slick';
-
-import { formatNumber } from "../../../utils";
 import data from "../../../data/flights/flight.json"
 import { useState } from 'react';
 
@@ -84,7 +82,7 @@ function Recomflights() {
                                                                 </div>
                                                             </div>
                                                             <div className="right-side footer-right">
-                                                                <span className="price" style={{ textAlign: 'left', lineHeight: '20px', textTransform: 'none', color: "#EE6767" }}>₦{formatNumber(item.price)} <small style={{ fontSize: '15px' }}>Per Person</small></span>
+                                                                <span className="price" style={{ textAlign: 'left', lineHeight: '20px', textTransform: 'none', color: "#EE6767" }}>₦{item.price} <small style={{ fontSize: '15px' }}>Per Person</small></span>
                                                             </div>
                                                         </div>
                                                         {/* <div className="action">
@@ -136,7 +134,7 @@ function Recomflights() {
                                                                 </div>
                                                             </div>
                                                             <div className="right-side footer-right">
-                                                                <span className="price" style={{ textAlign: 'left', lineHeight: '20px', textTransform: 'none', fontSize: '20px', color: "#EE6767" }}>₦{formatNumber(item.price)}<small style={{ fontSize: '15px' }}>Per Person</small></span>
+                                                                <span className="price" style={{ textAlign: 'left', lineHeight: '20px', textTransform: 'none', fontSize: '20px', color: "#EE6767" }}>₦{item.price}<small style={{ fontSize: '15px' }}>Per Person</small></span>
                                                             </div>
                                                         </div>
                                                         {/* <div className="action">
