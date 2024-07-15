@@ -1,46 +1,55 @@
-import React, { Fragment } from 'react';
-import { Link } from 'react-router-dom';
-import NavHelper from '../../helper/NavHelper';
+import React, { Fragment } from "react";
+import { Link } from "react-router-dom";
+import NavHelper from "../../helper/NavHelper";
 // import insta from '../../data/instagram.json';
 
 class Footer extends NavHelper {
-    render() {
-        const backToTop = this.state.stickyHeader ? ' d-block' : '';
-        return (
-            <Fragment>
-                {/* Start Footer */}
-                <footer className="section-padding footer">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-lg-6 col-md-6">
-                                <div className="footer-box mb-md-40">
-                                    <h4 className="text-custom-white fw-600">FastDrive</h4>
-                                    {/* <h5 className="text-custom-white"><strong>About Us</strong></h5> */}
-                                    <p className="text-custom-white">Discover a wide range of curated itineraries, from thrilling adventure tours to cultural explorations and everything in between. With our user-friendly platform, booking your dream tour has never been easier. Trust our expert guides and reliable partners to ensure a seamless and memorable travel experience. Start your journey today and create lifelong memories with Fastdrive.
-                                    </p>
-                                </div>
-                            </div>
-                            <div className="col-lg-3 col-md-6">
-                                <div className="footer-box mb-md-40">
-                                    <h4 className="text-custom-white fw-600">Quick Links</h4>
-                                    <ul className="custom links">
-                                        {/* <li>
+  render() {
+    const backToTop = this.state.stickyHeader ? " d-block" : "";
+    return (
+      <Fragment>
+        {/* Start Footer */}
+        <footer className="section-padding footer">
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-6 col-md-6">
+                <div className="footer-box mb-md-40">
+                  <h4 className="text-custom-white fw-600">FastDrive</h4>
+                  {/* <h5 className="text-custom-white"><strong>About Us</strong></h5> */}
+                  <p className="text-custom-white">
+                    Discover a wide range of curated itineraries, from thrilling
+                    adventure tours to cultural explorations and everything in
+                    between. With our user-friendly platform, booking your dream
+                    tour has never been easier. Trust our expert guides and
+                    reliable partners to ensure a seamless and memorable travel
+                    experience. Start your journey today and create lifelong
+                    memories with Fastdrive.
+                  </p>
+                </div>
+              </div>
+              <div className="col-lg-3 col-md-6">
+                <div className="footer-box mb-md-40">
+                  <h4 className="text-custom-white fw-600">Policy</h4>
+                  <ul className="custom links">
+                    {/* <li>
                                             <Link to="/" className="text-custom-white">Home</Link>
                                         </li> */}
 
-                                        <li>
-                                            <Link to="/about" className="text-custom-white">Terms of Service</Link>
-                                        </li>
-                                         {/* <li>
+                    <li>
+                      <Link to="/about" className="text-custom-white use-link">
+                        Terms of Service
+                      </Link>
+                    </li>
+                    {/* <li>
                                             <Link to="/cruise-grid" className="text-custom-white">Cruise</Link>
                                         </li> */}
-                                    </ul>
-                                </div>
-                            </div>
-                            <div className="col-lg-3 col-md-6">
-                                <div className="footer-box mb-sm-40">
-                                    <h4 className="text-custom-white fw-600">Contact</h4>
-                                    {/* <ul className="custom instagram gallery-grid">
+                  </ul>
+                </div>
+              </div>
+              <div className="col-lg-3 col-md-6">
+                <div className="footer-box mb-sm-40">
+                  <h4 className="text-custom-white fw-600">Contact</h4>
+                  {/* <ul className="custom instagram gallery-grid">
                                       
                                         {insta.map((item, i) => (
                                             <li key={i}>
@@ -51,11 +60,25 @@ class Footer extends NavHelper {
                                         ))}
                                 
                                     </ul> */}
-                                    <p className="text-custom-white"><strong>Contact us: </strong>info@fastdrive.ng</p>
+                  <ul className="custom links">
+                    {/* <li>
+                                            <Link to="/" className="text-custom-white">Home</Link>
+                                        </li> */}
 
-                                </div>
-                            </div>
-                            {/* <div className="col-lg-3 col-md-6">
+                    <li>
+                      <Link to="/contact" className="text-custom-white use-link">
+                        Contact Support
+                      </Link>
+                    </li>
+                    {/* <li>
+                                            <Link to="/cruise-grid" className="text-custom-white">Cruise</Link>
+                                        </li> */}
+                  </ul>
+
+                  {/* <p className="text-custom-white"><strong>Contact us: </strong>info@fastdrive.ng</p> */}
+                </div>
+              </div>
+              {/* <div className="col-lg-3 col-md-6">
                                 <div className="footer-box mb-sm-40">
                                     <h4 className="text-custom-white fw-600">Get travel news</h4>
                                     <div className="newsletter">
@@ -68,27 +91,39 @@ class Footer extends NavHelper {
                                     </div>
                                 </div>
                             </div> */}
-                        </div>
-                    </div>
-                </footer>
-                {/* End Footer */}
-                {/* Start Copyright */}
-                <div className="copyright">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-12">
-                                <p className="text-custom-white">All Right Reserved <Link to="#" className="text-custom-white">© FastDrive</Link></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                {/* End Copyright */}
-                <div id="back-top" className={"back-top" + backToTop}>
-                    <Link to="#" data-toggle="button" aria-pressed="true" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}><i className="flaticon-arrows" /></Link>
-                </div>
-            </Fragment>
-        );
-    }
+            </div>
+          </div>
+        </footer>
+        {/* End Footer */}
+        {/* Start Copyright */}
+        <div className="copyright">
+          <div className="container">
+            <div className="row">
+              <div className="col-12">
+                <p className="text-custom-white">
+                  All Right Reserved{" "}
+                  <Link to="#" className="text-custom-white">
+                    © FastDrive
+                  </Link>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* End Copyright */}
+        <div id="back-top" className={"back-top" + backToTop}>
+          <Link
+            to="#"
+            data-toggle="button"
+            aria-pressed="true"
+            onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+          >
+            <i className="flaticon-arrows" />
+          </Link>
+        </div>
+      </Fragment>
+    );
+  }
 }
 
 export default Footer;
